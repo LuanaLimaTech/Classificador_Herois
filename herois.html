@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Heróis!</title>
+</head>
+<body>
+    <script>
+        let name = prompt ("Olá! Qual seu nome herói?")
+        console.log (name)
+        let numeroXp = prompt ("Olá, " + name + "! Qual seu número de XP?")
+        console.log (numeroXp)
+
+        if (numeroXp >= 1000) {
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Ferro!")
+        } else if (numeroXp >= 1001 && numeroXp <= 2000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Bronze!")
+        }else if (numeroXp >= 2001 && numeroXp <= 5000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Prata!")
+        } else if (numeroXp >= 5001 && numeroXp <= 7000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Ouro!")
+        } else if (numeroXp >= 7001 && numeroXp <= 8000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Platina!")
+        } else if (numeroXp >= 8001 && numeroXp <= 9000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Ascendente!")
+        } else if (numeroXp >= 9001 && numeroXp <= 10000){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Imortal!")
+        } else if (numeroXp >= 10001){
+            numeroXp++
+            alert ("Herói " + name + " Seu nível é Radiante!")
+        }
+        
+        
+    </script>
+</body>
+</html>
